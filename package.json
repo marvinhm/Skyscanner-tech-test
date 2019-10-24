@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "CI=true react-scripts test",
+    "test": "jest test/**/*.spec.js",
     "e2e": "cypress open",
     "lint:scss": "stylelint 'src/**/*.scss' --syntax scss",
     "lint:scss:fix": "stylefmt --recursive 'src/**/*.scss'",
@@ -42,5 +42,8 @@
     "not dead",
     "not ie <= 10",
     "not op_mini all"
-  ]
+  ],
+  "dependencies": {
+    "jest": "24.9.0"
+  }
 }
