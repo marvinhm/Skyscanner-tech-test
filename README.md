@@ -1,24 +1,14 @@
-# Skyscanner full-stack recruitment test
+# SkyscannerJS
 
-Thanks for taking the time to do our front-end / full-stack coding test. The challenge has two parts:
-
-1) a [task](#task) to create a basic flight results front-end site to show flight prices
-
-2) some [follow-up questions](./FOLLOW-UP.md)
+ An basic flight results site to showing flight prices.
 
 ----
-
-You will be graded based on the following have been met:
-
-* Your implementation works as described in the [task](#task).
 
 * Your solution looks like the provided [design](#design).
 
 ----
 
 ## Task
-
-We have placed a number of helpful todos inside the code (see `index.js` and `App.jsx`) to help get you started, the main items we are looking for are:
 
 - Fetch flight results from the provided `flights.json` and format them into client readable results.
 
@@ -34,13 +24,15 @@ The design shows a look and feel defined in our [styleguide](https://backpack.gi
 
 For the airline logos, insert the airline id to the following url: `https://logos.skyscnr.com/images/airlines/favicon/{id}.png`
 
-## Client implementation
+## Tech
 
-We'd like you to use [React](https://facebook.github.io/react/). On top of that, use whatever front-end libraries you feel comfortable with.
+[React](https://facebook.github.io/react/).
+[Parcel] - Web application bundler
+[Cypress] - End to end testing
+[Materialize] - For styling
 
 We've set you up with a build based on [our custom fork](https://backpack.github.io/using/backpack-react-scripts) of Facebook's [create-react-app](https://github.com/facebookincubator/create-react-app).
 
-We've wired in [Sass](http://sass-lang.com/) with our base stylesheet (`bpk-stylesheets`) + mixins (`bpk-mixins`) for you to get at -- see the [`Header`](./client/src/components/Header/Header.jsx) component for example use.
 
 ## Flight results
 
@@ -66,15 +58,3 @@ To startup the frontend client run the following command.
 * `npm test` - Will run the front end tests
 * `npm run lint` - Will run the code through our linting rules
 
-## Submission Guidelines
-
-* The zip file should be named {yourname}.zip, and should itself contain the full-stack-recruitment-test project folder with your submission.
-
-* The zip file should contain the [FOLLOW-UP.md](./FOLLOW-UP.md) file with answers to the follow-up questions.
-
-* The zip file should **not** include the `node_modules` folder.
-
-
-----
-
-Inspiration for the test format taken with ❤️ from [JustEat's recruitment test](https://github.com/justeat/JustEat.RecruitmentTest).
