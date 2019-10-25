@@ -24,11 +24,9 @@ For the airline logos, insert the airline id to the following url: `https://logo
 ## Tech
 
 - [React](https://facebook.github.io/react/) 
-- [Parcel]
-- [Cypress]
-- [Materialize]
-
-We've set you up with a build based on [our custom fork](https://backpack.github.io/using/backpack-react-scripts) of Facebook's [create-react-app](https://github.com/facebookincubator/create-react-app).
+- Parcel
+- Cypress
+- Materialize
 
 
 ## Flight results
