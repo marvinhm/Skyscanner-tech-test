@@ -22,17 +22,16 @@
     "@babel/core": "7.6.4",
     "@babel/plugin-proposal-class-properties": "7.5.5",
     "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/preset-env": "7.6.3",
     "@babel/preset-react": "7.6.3",
     "babel-core": "6.26.3",
     "babel-eslint": "10.0.3",
-    "babel-jest": "24.9.0",
-    "backpack-react-scripts": "^7.0.0",
+    "babel-loader": "8.0.6",
     "bpk-component-text": "^1.2.1",
     "bpk-mixins": "^18.2.1",
     "bpk-stylesheets": "^3.4.1",
     "cypress": "3.5.0",
     "enzyme": "3.10.0",
-    "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-skyscanner": "^3.0.0",
     "eslint-plugin-import": "^2.16.0",
@@ -51,6 +50,8 @@
     "not op_mini all"
   ],
   "dependencies": {
-    "jest": "24.9.0"
+    "jest": "24.9.0",
+    "parcel-bundler": "1.12.4",
+    "react-scripts": "3.2.0"
   }
 }
