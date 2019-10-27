@@ -19,7 +19,7 @@ The design shows a look and feel defined in our [styleguide](https://backpack.gi
 
 For the airline logos, insert the airline id to the following url: `https://logos.skyscnr.com/images/airlines/favicon/{id}.png`
 
-* Original design we are aiming for... [design](#design).
+* Original design we are aiming for... [design](https://github.com/Skyscanner/full-stack-recruitment-test/blob/master/designs/results-small.png).
 
 ## Tech
 
