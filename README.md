@@ -1,6 +1,6 @@
 # SkyscannerJS
 
- A basic flight results site to showing flight prices.
+ A basic flight results site showing flight prices.
 
 
 ## Task
